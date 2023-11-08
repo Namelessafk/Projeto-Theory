@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    min-width: 50rem;
+    flex-direction: column;
+    padding: 10px;
+    background: darkslategray;
+}
+
+button{
+    padding: 5px;
+    background-color: cadetblue;
+    border: rgb(78, 134, 136);
+    margin-top: 7px;
+    border-radius: 10px;
+}
+button:hover{
+    transform: scale(1.1);
+}

@@ -5,8 +5,12 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Main />
+      <header>
+        <Header />
+      </header>
+      <main>
+        <Main />
+      </main>
     </>
   )
 }

@@ -1,10 +1,11 @@
 import React from "react";
+import Start from "./Start";
 
 
 class Main extends React.Component {
   render() {
     return (
-        <h1>main aqui</h1>
+        <Start />
     );
   }
 }
