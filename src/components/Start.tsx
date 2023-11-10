@@ -7,8 +7,10 @@ class Start extends React.Component {
       <div className="container">
         <h2>Bem Vindo ao Caso #</h2>
         <p>Digite seu nome para começar:</p>
-        <input type="text" />
-        <button>continuar</button>
+        <input id="name" type="text" />
+        <button id="btn">
+          send
+        </button>
       </div>
     );
   }

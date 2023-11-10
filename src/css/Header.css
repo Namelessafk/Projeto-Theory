@@ -1,15 +1,15 @@
-.header{
-    display: flex;
-    align-items: center;
-    margin: 0 2rem;
-    justify-content: space-between;
+.header {
+  display: flex;
+  align-items: center;
+  margin: 0 2rem;
+  justify-content: space-between;
 }
 
-h2{
-    font-size: 2.2rem;
-    margin-bottom: 6vh;
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 6vh;
 }
 
-.dia{
-    font-size: 1.5rem;
-}
+.dia {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=Header.css.map */
