@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    min-width: 50rem;
+    flex-direction: column;
+    padding: 20px;
+    background: darkslategray;
+}
+
+button{
+    padding: 5px;
+    background-color: cadetblue;
+    border: rgb(78, 134, 136);
+    margin-top: 7px;
+    border-radius: 10px;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+.escolha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    min-width: 50%;
+    background-color: dimgray;
+    cursor: pointer;
+}
+.selected{
+    background-color: rgb(80, 78, 78);
+    transform: scale(1.1);
+}
+
+.escolha:hover{
+    transform: scale(1.1);
+}
