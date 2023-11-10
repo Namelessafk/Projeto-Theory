@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Main from "./components/Main"
+import Start from "./components/Start"
 
 function App() {
 
@@ -8,6 +9,9 @@ function App() {
       <header>
         <Header />
       </header>
+      <>
+        <Start />
+      </>
       <main>
         <Main />
       </main>

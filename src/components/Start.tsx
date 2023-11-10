@@ -1,5 +1,5 @@
 import React from "react";
-import '../css/Main.css'
+import '../css/Start.scss'
 
 class Start extends React.Component {
   render() {
@@ -9,11 +9,12 @@ class Start extends React.Component {
         <h2>Bem Vindo ao Caso #</h2>
         <p>Digite seu nome para começar:</p>
         <input
+          id="name"
           type="text"
           placeholder="Digite seu nome"
           onChange={e => name = e.target.value}
         />
-        <button onClick={() => alert(name)}>continuar</button>
+        <button className="btn" onClick={() => alert(name)}>continuar</button>
       </div>
     );
   }

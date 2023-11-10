@@ -10,7 +10,7 @@ class Scenario extends React.Component {
         <div className="escolha">Escolha 1</div>
         <div className="escolha selected">Escolha 2</div>
         <div className="escolha">Escolha 3</div>
-        <button>Confirmar</button>
+        <button className="btn">Confirmar</button>
       </div>
     );
   }

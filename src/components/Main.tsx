@@ -3,12 +3,12 @@ import React from "react";
 import Scenario from "./Scenario";
 //import Start from "./Start";
 //import Instructions from "./Instructions";
-
+import '../css/Main.css'
 
 class Main extends React.Component {
   render() {
-    return ( 
-        <Scenario />
+    return (
+      <Scenario />
     );
   }
 }
