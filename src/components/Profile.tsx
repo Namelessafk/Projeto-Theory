@@ -1,6 +1,6 @@
 import '../css/Main.css'
 
-export const Profile = ({name}:any) => {
+export const Profile = ({ name }: any) => {
   return (
     <div className="container">
       <h2>Perfil:</h2>

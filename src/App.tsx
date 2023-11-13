@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Main from "./components/Main"
+import Scenario from "./components/Scenario";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       </header>
       <main>
         <Main />
+        <Scenario />
       </main>
     </>
   )
