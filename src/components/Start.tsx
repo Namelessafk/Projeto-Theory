@@ -1,6 +1,10 @@
 import '../css/Main.css'
 
-export const Start = ({setName}: any) => {
+type Props = {
+  setName: (setName: string) => void;
+}
+
+export const Start = ({setName}: Props) => {
   return (
     <div className="container">
       <h2>Bem Vindo ao Caso #</h2>
@@ -10,7 +14,7 @@ export const Start = ({setName}: any) => {
         placeholder="Digite seu nome"
         onChange={e => setName(e.target.value)}
       />
-      <button onClick={() => alert(name)}>continuar</button>
+      <button>continuar</button>
     </div>
   );
 }
