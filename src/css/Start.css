@@ -23,7 +23,7 @@ main {
   padding-left: 10px;
 }
 
-.btn {
+#btn-start {
   border-radius: 10px;
   background-color: transparent;
   color: white;
@@ -37,7 +37,7 @@ main {
   border-color: white;
 }
 
-.btn:hover {
+#btn-start:hover {
   background: rgb(255, 255, 255);
   box-shadow: 0 0 35px rgb(255, 255, 255);
   color: black;

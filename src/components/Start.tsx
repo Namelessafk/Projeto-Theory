@@ -14,7 +14,7 @@ class Start extends React.Component {
           placeholder="Digite seu nome"
           onChange={e => name = e.target.value}
         />
-        <button className="btn" onClick={() => alert(name)}>continuar</button>
+        <button id="btn-start" className="btn" onClick={() => alert(name)}>continuar</button>
       </div>
     );
   }
