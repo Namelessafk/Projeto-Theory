@@ -14,7 +14,7 @@ export const Start = ({ setName }: Props) => {
         placeholder="Digite seu nome"
         onChange={e => setName(e.target.value)}
       />
-      <button>continuar</button>
+      <button id='btn-start'>continuar</button>
     </div>
   );
 }
