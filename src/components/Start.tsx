@@ -1,23 +1,22 @@
-import React from "react";
-import '../css/Start.scss'
+import '../css/Main.css'
 
-class Start extends React.Component {
-  render() {
-    let name = "";
-    return (
-      <div className="container">
-        <h2>Bem Vindo ao Caso #</h2>
-        <p>Digite seu nome para começar:</p>
-        <input
-          id="name"
-          type="text"
-          placeholder="Digite seu nome"
-          onChange={e => name = e.target.value}
-        />
-        <button id="btn-start" className="btn" onClick={() => alert(name)}>continuar</button>
-      </div>
-    );
-  }
+type Props = {
+  setName: (setName: string) => void;
+}
+
+export const Start = ({ setName }: Props) => {
+  return (
+    <div className="container">
+      <h2>Bem Vindo ao Caso #</h2>
+      <p>Digite seu nome para começar:</p>
+      <input
+        type="text"
+        placeholder="Digite seu nome"
+        onChange={e => setName(e.target.value)}
+      />
+      <button>continuar</button>
+    </div>
+  );
 }
 
 export default Start;
