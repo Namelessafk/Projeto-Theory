@@ -16,6 +16,11 @@ main {
   border-radius: 30px;
 }
 
+#input-start {
+  width: 20vw;
+  text-align: center;
+}
+
 #name {
   width: 30%;
   border: 1px solid white;
